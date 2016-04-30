@@ -1,0 +1,73 @@
+#container{
+
+}
+
+#heard{
+	background-color: gray; 
+	color: white;
+	text-align: center; 
+	margin: 5px 5px 5px 5px;
+	height: 60px;
+}
+#nav p{
+	color:green;
+}
+#nav
+{
+	background-color: gray; 
+	color: white; 
+	text-align: center;
+	margin: 5px 5px 5px 5px;
+	height: 60px;
+}
+#middle
+{
+	margin: 20px 5px 5px 5px;
+}
+
+#siderbar
+{
+	background-color: #112000; 
+	color: white; 
+	width: 25%; 
+	text-align: center;
+	height: 162px;
+	float: left;
+}
+
+#main
+{
+	background-color: blue; 
+	color: white; width: 70%; 
+	float: right; 
+	text-align: center;
+	padding: 10;
+}
+#slider
+{
+	background-color: #112112; 
+	color: white; 
+	width: 48%; 
+	text-align: center;
+	height: 100px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+#tools
+{
+	background-color: #112112; 
+	color: white; 
+	width: 48%; 
+	text-align: center;
+	height: 100px;
+	float: right;
+	margin: 5px 5px 5px 5px;
+}
+#footer
+{
+	background-color: gray; 
+	color: white; 
+	text-align: center;
+	margin: 200px 5px 5px 5px;
+	height: 60px;
+}
