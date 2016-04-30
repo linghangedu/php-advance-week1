@@ -1,0 +1,80 @@
+section#boarder {
+    border: 1px solid #00BCD4;
+}
+
+section#header {
+    border: 1px solid #00BCD4;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+section#navigator {
+    border: 1px solid #00BCD4;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+main {}
+
+main {
+    border: 1px solid #00BCD4;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: yellow;
+    float: right;
+    width: 50%;
+    height: 300;
+}
+
+header {
+}
+
+
+aside {
+    border: 1px solid #00BCD4;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellow;
+    width: 50%;
+    height: 300;
+}
+
+footer {
+    border: 1px solid #00BCD4;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+h3 {
+    text-align: center;
+}
+
+#aside h3 {
+    text-align: center;
+}
+
+section#slider {
+    border: 1px solid #00BCD4;
+    width: 50%;
+    height: 170;
+    margin-bottom: 5px;
+    float: left;
+}
+
+section#tools {
+    border: 1px solid #00BCD4;
+    float: right;
+    width: 45%;
+    height: 170;
+}
+
+section#down {
+    border: 1px solid #00BCD4;
+}
+
+section#up {
+    overflow: auto;
+}
