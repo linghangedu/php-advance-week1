@@ -1,0 +1,100 @@
+
+
+#container {
+	background-color: white;
+    border: 2px solid black;
+    align-content: center;
+    padding: 2px;
+    margin: 1cm 2cm;
+}
+
+#header{
+	background-color: purple;
+	border: 2px solid black;
+	align-content: center;
+	text-align: center;
+	margin: 2px 2px;
+}
+
+#nav{
+	background-color: purple;
+	border: 2px solid black;
+	align-content: center;
+	text-align: center;
+	margin: 2px 2px;
+}
+
+#middle{
+	background-color: white;
+	margin: 2px;
+	overflow: auto;
+	overflow-x:hidden;
+	height: 200px;
+}
+
+#sidebar{
+	background-color: purple;
+	border: 2px solid black;
+	float:left;
+	margin: 2px 2px;
+	overflow: auto;
+	width: 25%;
+	height:200px;
+	text-align: center;
+}
+
+#main{
+	background-color: blue;
+	border: 2px solid black;
+	float: right;
+	margin: 2px 2px;
+	width: 70%;
+	height:auto;
+	height:200px;
+	text-align: center;
+}
+
+#slider{
+	background-color: blue;
+	border: 2px solid black;
+	float: left;
+	margin: 2px;
+	text-align: center;
+	width: 45%;
+}
+
+#tools{
+	background-color: blue;
+	border: 2px solid black;
+	float: right;
+	margin: 2px;
+	text-align: center;
+	width: 45%;
+
+}
+
+#contents{
+	background-color: blue;
+	border: 2px solid black;
+	float: left;
+	margin: 2px;
+	text-align: center;
+	width: 98%;
+}
+
+#footer{
+	background-color: purple;
+	border: 2px solid black;
+	align-content: center;
+	text-align: center;
+	margin: 2px 2px;
+}
+
+
+
+
+
+
+
+
+
