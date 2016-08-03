@@ -1,0 +1,29 @@
+div {
+    border: 1px solid #00BCD4;
+    text-align: center;
+    font-size: 19px;
+    font-family: monospace;
+}
+
+.container{
+    border: 2px solid #00BCD4;
+    padding: 10px;
+}
+
+div#header {
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    width: 25%;
+    float: left;
+}
+
+div#main {
+    width: 70%;
+    float: right;
+}
+
+div#middle {
+    height: 400px;
+}
