@@ -2,7 +2,7 @@
 /* Defining a PHP Function */
 function writeMessage()
 {
-    echo "You are really a nice person, Have a nice time!";
+    echo "You are really a nice person, Have a nice time!<br>";
 }
 /* Calling a PHP Function */
 writeMessage();
@@ -13,7 +13,7 @@ writeMessage();
 function addFunction($num1, $num2)
 {
     $sum = $num1 + $num2;
-    echo "Sum of the two numbers is : $sum";
+    echo "Sum of the two numbers is : $sum<br>";
 }
 addFunction(10, 20);
 ?>
@@ -21,13 +21,13 @@ addFunction(10, 20);
 
 
 <?php
-function addFunction($num1, $num2)
+function addFunction2($num1, $num2)
 {
     $sum = $num1 + $num2;
     return $sum;
 }
-$return_value = addFunction(10, 20);
-echo "Returned value from the function : $return_value";
+$return_value = addFunction2(10, 20);
+echo "Returned value from the function : $return_value<br>";
 ?>
 
 
@@ -39,15 +39,15 @@ function addFive($num)
     $num += 5;
 }
 
-function addSix(&$num) \\note the different here
+function addSix(&$num) //note the different here
 {
     $num += 6;
 }
 $orignum = 10;
 addFive( $orignum );
-echo "Original Value is $orignum\n";
+echo "Original Value is $orignum<br>";
 addSix( $orignum );
-echo "Original Value is $orignum\n";
+echo "Original Value is $orignum<br>";
 ?>
 
 
@@ -58,7 +58,7 @@ function printMe($param = NULL)
 {
     print $param;
 }
-printMe("This is test");
+printMe("This is test<br>");
 printMe();
 ?>
 
